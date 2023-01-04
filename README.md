@@ -1,7 +1,5 @@
 # Arquitetura Limpa para Aplicações com Spring
 
-[Arquitetura Limpa em detalhes](https://github.com/LuanPSantos/Clean-Architecture)
-
 ![Diagrama Arquitetura Limpa](imgs/clean-arch.png)
 
 Em resumo, a Arquitetura Limpa propõe mecanismos e ferramentas para que desenvolvedores construam softwares que sejam manutenível e expansíveis. Essa característica é alcançada ao tornar códigos de regra de negócio mais abstratos, com responsabilidades bem definidas e independentes de códigos de infraestrutura.
