@@ -1,7 +1,9 @@
 Arquitetura Limpa para Aplicações com Spring
 ===
 
-![Diagrama Arquitetura Limpa](imgs/clean-arch.png)
+<p align="center" width="100%">
+   <img src="imgs/clean-arch.png">
+</p>
 
 Em resumo, a Arquitetura Limpa propõe mecanismos e ferramentas para que desenvolvedores construam `softwares` que sejam manutenível e expansíveis. Essa característica é alcançada ao tornar códigos de regra de negócio mais abstratos, com responsabilidades bem definidas e independentes de códigos de infraestrutura.
 
@@ -19,7 +21,9 @@ Arquitetura Limpa e Framework
 
 O diagrama a seguir mostra uma forma de conciliar o isolamento das regras de negócio e a utilização de frameworks para construir aplicações comerciais. A regra da dependência pode ser quebrada entre as camadas de `frameworks (azul)` e `adapters (verde)`, pois nessas camadas não irão existir códigos de negócios. Para as camadas de `Use Case (vermelho)` e `Entity (amarelo)`, deve-se manter a regra da dependência para isolá-las, já que são responsáveis pelo real funcionamento da aplicação.
 
-![Diagrama Arquitetura para Spring Application](imgs/arch.png)
+<p align="center" width="100%">
+   <img src="imgs/arch.png">
+</p>
 
 >Nota-se que não existem setas que saem de uma Entity para apontar para qualquer outro componente e que as setas que saem do Use Case só apontam para Entities.
 
@@ -32,5 +36,7 @@ Para a organização de pacotes, tem-se a seguinte proposta.
 Nota-se como cada camada da Arquitetura Limpa estão separadas em três pacotes base: `Entity`, `Use Case` e `Infrastructure` (frameworks e adapters).
 Como cada conjunto de componentes (`services`, `gateway`, `model`) estão agrupados por domínio (xxxxx).
 
-![Diagrama Pacotes](imgs/package.png)
+<p align="center" width="100%">
+   <img src="imgs/package.png">
+</p>
 
