@@ -15,7 +15,7 @@ Arquitetura Limpa e Framework
 
 É muito comum, por exemplo, utilizar `Spring Framework` com `Java/Kotlin` para o desenvolvimento de aplicações comerciais. Ferramentas como `Spring Boot`, `Spring MVC` e `Spring Data` salvam a vida de muitos desenvolvedores todos os dias.
 
->Como ter uma Arquitetura Limpa trabalhando junto como o Framework?
+>Como ter uma Arquitetura Limpa trabalhando junto com o Framework?
 
 O diagrama a seguir mostra uma forma de conciliar o isolamento das regras de negócio e a utilização de frameworks para construir aplicações comerciais. A regra da dependência pode ser quebrada entre as camadas de `frameworks (azul)` e `adapters (verde)`, pois nessas camadas não irão existir códigos de negócios. Para as camadas de `Use Case (vermelho)` e `Entity (amarelo)`, deve-se manter a regra da dependência para isolá-las, já que são responsáveis pelo real funcionamento da aplicação.
 
